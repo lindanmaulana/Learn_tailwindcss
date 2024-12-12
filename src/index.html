@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <section class="py-10 bg-white dark:bg-black">
+        <div class="container max-w-4xl bg-blue-200 ">
+            <div>
+                <h2 class="text-black dark:text-white">Lindan Maulana</h2>
+                <button onclick="handleDarkMode()">Night</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const handleDarkMode = () => {
+            document.documentElement.classList.toggle("dark")
+        }
+    </script>
+</body>
+</html>
